@@ -1,0 +1,53 @@
+name: flutter_s3_uploader
+description: A complete Flutter application for file uploading to E2E cloud S3 bucket with automatic scanning and modern UI.
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: ">=3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # File Operations
+  file_picker: ^8.1.6
+  path_provider: ^2.1.5
+  path: ^1.9.0
+
+  # HTTP & Upload
+  http: ^1.3.0
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # Date Formatting
+  intl: ^0.20.2
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+  # Background tasks
+  workmanager: ^0.5.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets (optional)
+  # assets:
+  #   - images/
+  #   - icons/
+
+  # Custom fonts (optional)
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: fonts/Roboto-Regular.ttf
+  #       - asset: fonts/Roboto-Bold.ttf
+  #         weight: 700
